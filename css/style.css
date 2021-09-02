@@ -28,3 +28,20 @@ color: white;
 ul, h2{
     color: white;
 }
+
+a:hover{
+   font-size: x-large;
+   border-style: inset;
+   border-color: crimson;
+}
+
+img {
+   /* width: 40%;*/
+   /*width: 300px;*/
+   width: 20rem;
+}
+
+img:hover{
+    width: 30rem;
+    border-style: solid;
+}
