@@ -1,0 +1,30 @@
+body {
+    background-color:rgb(32, 26, 9);
+    color: white;
+    font-family: 'Klee One', cursive;
+}
+
+footer{
+    background-color: rgb(89, 89, 228);
+}
+header{
+    background-color: black;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#login {
+    color: white;
+}
+.whitebg{
+    background-color: white;
+}
+
+body > table > tbody > tr {
+background-color: rgb(32, 26, 9);
+color: white;
+}
+
+ul, h2{
+    color: white;
+}
