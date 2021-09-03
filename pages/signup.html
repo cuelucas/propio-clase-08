@@ -32,13 +32,18 @@
 <label for="apellido">ingresa tu apellido</label>
 <input id="flastname" type="text" name="apellido" placeholder="escribe tu apellido"><br><br>
 
+<label for="dni">ingresa tu dni</label>
+<input id="dni" type="text" name="dni" placeholder="D.N.I" pattern="(\d{2})+(\d{3})+(\d{3})">
+<!--patron regex igual a \d{8} o sino [0-9]{8}-->
+<br><br>
+
 <label for="birthdate">Ingresa tu fecha de nacimiento</label>
 <input type="date" id="bithdate" name="birthdate">
 <br><br>
 
 <label for="pais">selecciona tu pais</label>
 <select name="pais" id="fpais">
-<option value="">---</option>
+<option value="">---</option> <!--como hago para que no me tome como valida esta opcion pero si aparezca dentro de la lista???-->
 <option value="argentina">argentina</option>
 <option value="mexico">mexico</option>
 <option value="chile">chile</option>
