@@ -15,9 +15,13 @@ header{
 
 #login {
     color: white;
+    position: absolute;
+    left:87%;
 }
 .whitebg{
     background-color: white;
+    position: absolute;
+    left:80%;
 }
 
 body > table > tbody > tr {
@@ -29,8 +33,12 @@ ul, h2{
     color: white;
 }
 
+.fa-lemon{
+    color: yellow;
+}
+
 a:hover{
-   font-size: x-large;
+   /*font-size: x-large;*/
    border-style: inset;
    border-color: crimson;
 }
